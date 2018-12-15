@@ -17,7 +17,6 @@
 
 #include <stdbool.h>
 #include <stdint.h>
-#include <unistd.h>
 
 #include "platform.h"
 #include "build/debug.h"
