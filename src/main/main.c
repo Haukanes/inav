@@ -55,7 +55,7 @@ static void processLoopback(void)
 
 int main(void)
 {
-    for(volatile int i=0;i<600000;i++){} //Hacky way to delay initialization of iNav. Makes runcam control over UART work.
+    for(volatile int i=0;i<200000;i++){} //Delay initialization of iNav. Makes runcam control over UART work.
 
     init();
     loopbackInit();
